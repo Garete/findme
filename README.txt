@@ -20,7 +20,7 @@ Good luck.
 
 ---
 
-## Requirements
+## Requirements.
 
 - Linux environment
 - Python 3
