@@ -1,0 +1,36 @@
+
+#!/bin/bash
+
+# Find the challenge root directory
+CHALLENGE_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+clear
+
+echo "========================================"
+echo "          SYSTEM RECOVERY"
+echo "========================================"
+echo
+echo "[*] Recovery environment initialized."
+echo "[*] Authentication required."
+echo
+
+# Execute the hidden authentication checker
+python3 "$CHALLENGE_ROOT/.system/.auth.py"
+
+STATUS=$?
+
+if [ "$STATUS" -eq 130 ]; then
+    echo
+    echo "[!] Recovery session interrupted."
+    exit 130
+elif [ "$STATUS" -ne 0 ]; then
+    echo
+    echo "[-] Recovery session terminated."
+    exit 1
+fi
+
+echo
+echo "========================================"
+echo "       RECOVERY COMPLETE"
+echo "========================================"
+echo "[+] Authentication verified."

@@ -1,0 +1,15 @@
+SECONDARY RECORD
+----------------
+
+The administrator's preferred tools:
+
+- find
+- file
+- xxd
+- tar
+
+One of these tools was used to inspect a file that could not be understood by reading it normally.
+
+The original representation was preserved elsewhere.
+
+Do not assume that a readable filename means readable content.

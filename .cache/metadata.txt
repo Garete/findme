@@ -1,0 +1,24 @@
+CACHE METADATA
+==============
+
+Cache integrity: UNKNOWN
+Last modified: 2024-02-11
+
+The administrator stored an important object here.
+
+The object was converted into a representation
+that could be safely stored as plain text.
+
+A previous inspection revealed:
+
+- The content contains hexadecimal characters.
+- It is not a password.
+- It is not intended to be read directly.
+- The original object was binary.
+
+The administrator left a note:
+
+"Sometimes you must reverse the process
+before you can understand the contents."
+
+END METADATA

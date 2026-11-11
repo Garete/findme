@@ -1,0 +1,47 @@
+ARCHIVE INDEX
+=============
+
+INDEX VERSION: 3.1
+OWNER: administrator
+STATUS: INCOMPLETE
+
+[ENTRY 001]
+NAME: system.log
+TYPE: TEXT
+STATUS: READABLE
+
+[ENTRY 002]
+NAME: records.log
+TYPE: TEXT
+STATUS: READABLE
+
+[ENTRY 003]
+NAME: config.dat
+TYPE: UNKNOWN
+STATUS: UNVERIFIED
+
+[ENTRY 004]
+NAME: backup.dat
+TYPE: UNKNOWN
+STATUS: PROTECTED
+
+[ENTRY 005]
+NAME: manifest.old
+TYPE: TEXT
+STATUS: LEGACY
+
+ADMINISTRATOR NOTES:
+-------------------
+
+The backup was never stored in its original form.
+
+The archive directory contains an older copy,
+but its contents may have been transformed.
+
+Do not trust the extension.
+
+A previous recovery attempt failed because
+the investigator assumed the filename described
+the actual file format.
+
+END OF INDEX

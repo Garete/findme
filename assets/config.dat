@@ -1,0 +1,23 @@
+SYSTEM CONFIGURATION
+=====================
+
+HOST=redhat-node-04
+USER=administrator
+STATUS=DECOMMISSIONED
+
+BACKUP_ENABLED=true
+BACKUP_LOCATION=/home/admin/archive
+
+AUTH_METHOD=LEGACY
+
+NOTES:
+The administrator rarely trusted file extensions.
+
+Some files were renamed after being processed.
+The original format was not always preserved in the filename.
+
+A previous configuration referenced the term:
+
+"reverse the transformation"
+
+END CONFIGURATION

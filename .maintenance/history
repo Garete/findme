@@ -1,0 +1,23 @@
+
+MAINTENANCE HISTORY
+-------------------
+
+The administrator frequently used command-line utilities
+to preserve sensitive information.
+
+A previous maintenance note contained the following:
+
+"Not everything that looks unreadable is encrypted."
+
+Another note mentioned that the administrator preferred
+representations that could survive being copied between systems.
+
+The original files were rarely left untouched.
+
+A final maintenance reminder:
+
+"Always identify the file format before attempting
+to recover its original contents."
+
+END OF HISTORY
+

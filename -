@@ -1,0 +1,9 @@
+You found an unusual entry.
+
+The administrator used filenames that could easily be mistaken for command-line options.
+
+A filename is not always what the command thinks it is.
+
+There is another entry like this somewhere inside the filesystem.
+
+Look carefully.
